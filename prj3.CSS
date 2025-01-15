@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.parent{
+    background-image: linear-gradient( to bottom,rgba(30, 111, 204, 0.5),transparent);
+
+     height: 100vh;
+     }
+ header{
+  display: flex;
+}
+.logo{
+    display: flex;
+    padding: 0 16px;
+    margin: 8px;
+    flex: 1;
+
+}
+.prg{
+    color: white;
+    line-height: 6vh;
+    font-size:20px ;
+}
+.menu{
+    display: flex;
+    flex: 2;
+    justify-content:space-around;
+    line-height: 9vh;
+    font-size:20px ;
+
+}
+a{
+    text-decoration: none;
+    color: #fcfbfb;
+}
+a:hover{
+    color: #628aa3;
+}
+
+.main{
+    position: absolute;
+    bottom: 50%;
+    color: white;
+    padding: 0 30px;
+}
+.PP{
+    line-height: 30PX;
+}
+input{
+ color: rgb(255, 255, 255);
+border: none;   
+padding: 10PX 20PX;
+}
+input:hover{
+    border: 3PX solid white;
+}
+#ss{
+    background-color: rgb(89, 124, 165);
+}
+#nn{
+    background-color: rgb(1, 9, 17);
+}
+.HH1{
+    text-align: center;
+  color: #0699f4;
+  text-decoration: underline #0699f4 solid;
+  margin-top:60PX;
+    margin-bottom: 60PX;
+}
+.ser{
+    display: flex;
+    text-align: center;
+}
+.LL{
+    color: #0699f4;
+    font-size: 18PX;
+}
+i{
+    font-size: 50PX;
+}
+.service{
+    padding: 10PX;
+    line-height: 25px;
+    margin: 50PX;
+}
+
+.ser{
+    display: flex;
+    text-align: center;
+}
+.LL{
+    color: #0699f4;
+    font-size: 18PX;
+}
+i{
+    font-size: 50PX;
+}
+.service{
+    padding: 10PX;
+    line-height: 25px;
+    margin: 50PX;
+
+}
+.Destinations{
+ margin: 65PX 30PX;
+}
+
+h2{
+    color: rgb(88, 211, 88);
+    text-align: center;
+    text-decoration: underline ;
+    font-size: 30px;
+}
+.section{
+    display: flex;
+    margin: 50PX 20PX;
+
+    
+}
+.secti{
+    margin: 10PX ;
+    line-height: 25PX;
+    box-shadow: 1PX 1PX 5PX 1PX rgb(194, 192, 192);
+    border-radius:10PX 10PX 0PX 0PX ;
+    font-size: 20PX;
+
+}
+.im{
+    width: 100%;
+    height: 300PX;
+    border-radius:10PX 10PX 0PX 0PX ;
+
+}
+.prix{
+    color: rgb(88, 211, 88);
+    padding-left:10PX;
+
+
+}
+h3{
+    color: rgb(88, 211, 88);
+    padding-left:10PX;
+    font-size: larger;
+
+}
+button{
+    margin-left:10PX;
+    margin-bottom:10PX;
+
+    background-color: white;
+    color: rgb(88, 211, 88);
+    border:2px solid rgb(88, 211, 88);
+    font-size: large;
+    padding: 10PX 15PX;
+}
+.secpar{
+    padding-left:10PX;
+ 
+}
+button:hover{ 
+    background-color: rgb(88, 211, 88);
+    color: white;
+}
+.secti:hover{
+    box-shadow: 3PX 3PX 9PX 5PX rgb(112, 111, 111);
+
+}
+.sectionlast{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+.PERSONE{
+    width: 100%;
+    height: 500PX;
+}
+.seclast{
+    padding: 0PX 10PX;
+}
+#KALBA{
+    padding-bottom: 20PX;
+}
+#parg {
+font-size: 20PX;
+line-height: 40PX;
+
+}
+#RR{
+    color: rgb(88, 211, 88);
+    line-height: 40PX;
+    font-size: 20PX;
+
+
+}
+ul{
+    list-style-position: inside;
+    padding: 0PX 20px;
+    font-size: 20PX;
+    line-height: 40PX;
+}
+#FEL{
+    margin-left:20PX;
+    margin-bottom:10PX;
+    background-color: white;
+    color: rgb(88, 211, 88);
+    border:2px solid rgb(88, 211, 88);
+    font-size: large;
+    padding: 10PX 15PX;
+}
+#FEL:hover{ 
+    background-color: rgb(88, 211, 88);
+    color: white;
+}
